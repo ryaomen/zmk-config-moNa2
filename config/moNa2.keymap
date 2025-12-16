@@ -61,10 +61,10 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                        &kp AMPS          &kp APOS           &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp GRAVE
-&kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                 &trans      &kp NUMBER_6      &kp N7             &kp N8                   &kp N9                    &kp N0
-&kp SEMICOLON    &kp COLON     &kp MINUS     &kp SLASH     &kp CARET    &trans    &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA                &kp PERIOD                &trans
-&trans           &trans        &trans        &trans        &trans       &trans    &kp DELETE  &trans                                                                                  &trans
+&kp EXCLAMATION  &kp LEFT_BRACKET  &kp HASH      &kp DOLLAR    &kp PERCENT                        &kp CARET         &kp LS(N8)         &kp LS(N9)  &kp KP_RIGHT_PARENTHESIS  &kp LS(LEFT_BRACKET)
+&kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4  &kp N5                 &trans      &kp NUMBER_6      &kp N7             &kp N8      &kp N9                    &kp N0
+&kp SEMICOLON    &kp SINGLE_QUOTE  &kp MINUS     &kp SLASH     &kp CARET    &trans    &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA   &kp PERIOD                &trans
+&trans           &trans            &trans        &trans        &trans       &trans    &kp DELETE  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
