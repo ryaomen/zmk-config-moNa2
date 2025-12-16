@@ -49,7 +49,7 @@
         default_layer {
             bindings = <
 &lt 4 Q         &kp W             &kp E         &kp R      &kp T                                &kp Y               &kp U  &lt 5 I   &kp O     &kp P
-&kp A           &kp S             &kp D         &kp F      &kp G                 &kp DEL        &kp H               &kp J  &kp K     &kp L     &mkp MB4
+&kp A           &kp S             &kp D         &kp F      &kp G                 &kp DEL        &kp H               &kp J  &kp K     &kp L     &mo 6
 &kp Z           &kp X             &kp C         &kp V      &kp B  &kp GRAVE      &kp MINUS      &kp N               &kp M  &mkp MB1  &mkp MB3  &mkp MB2
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &lt 1 TAB  &mo 2  &lt 3 SPACE    &kp BACKSPACE  &mt LEFT_WIN ENTER                             &kp ESCAPE
             >;
@@ -67,7 +67,7 @@
 &trans           &trans        &trans        &trans        &trans       &trans    &kp DELETE  &trans                                                                                  &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_2 {
